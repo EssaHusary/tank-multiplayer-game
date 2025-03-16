@@ -1,28 +1,12 @@
-# csc413-tankgame
+# Tank Game
 
 Two players go ahead-to-head in tank combat where players can pick up power ups and whoever loses all lives, loses the game!
 
-| Student Information |                |
-|:-------------------:|----------------|
-|  Student Name       |   Essa Husary    |
-|  Student Email      |   ehusary2@mail.sfsu.edu   |
+Various OOP principles and concepts were necessary in implementing this game. A lot of inheritance was needed for the different types of objects in the game. I created an abstract class called “GameObject” for every object in the game which will be drawn and be collided with, like in the case of a bullet hitting a wall. I also made another abstract class for shells (such as shotgun shells and plasma shells) called “Shell”. I had an interface for power ups called “PowerUp” which would be implemented by every type of power up in the game such as the health power up, speed power up, and even shell power ups. Sounds and visuals are obviously important so I created classes to add animations and sound to the game.
 
-## src Folder Purpose 
-src folder is to be used to store source code only.
+When a user boots up the game, they have an introductory screen prompting them to begin. Once they begin, they see a split screen, one for each player, where the camera per screen tracks each individual tank. They can pickup power ups and shoot each other until someone dies. The survivor is the winner and is prompted with a victory/end game screen. This project is still a work in progress as I am fixing bugs pertaining to shells leaving the cannon and bugs pertaining to wall collisions. I am very proud of my progress here.
 
-## resources Folder Purpose 
-resources folder is to be used to store the resources for your project only. This includes images, sounds, map text files, etc.
-
-`The src and resources folders can be deleted if you want a different file structure`
-
-## jar Folder Purpose 
-The jar folder is to be used to store the built jar of your term-project.
-
-`NO SOURCE CODE SHOULD BE IN THIS FOLDER. DOING SO WILL CAUSE POINTS TO BE DEDUCTED`
-
-`THIS FOLDER CAN NOT BE DELETED OR MOVED`
-
-# Required Information when Submitting Tank Game
+More details are listed below.
 
 ## Version of Java Used:
 
@@ -44,14 +28,14 @@ Intellij Ultimate IDEA
 
 
 
-## Steps to Build your Project:
+## Steps to Build Project:
 
 - Next, the jar needs to be built. Click “File” on the top left of the screen, then click on “Project Structure”. Next, you will see options including the option “Artifacts”. Click “Artifacts”. Once you do so, there will be a little plus sign (+) above where it says “Add  Alt+Insert”. Click the + sign, then hover your cursor over the option “JAR” and once you do so, click on “From modules with dependencies…”. Where it says “Main Class” in the “Create JAR from Modules” menu, hit the little folder image and select “Launcher”, since that is our main class. Hit “OK”, then “OK” again when you’re back on the “Create JAR from Modules” menu, then hit “Apply” when you’re back on the “Project Structure" menu, then hit “OK”. Next, find “Build” on the top of the project screen and once on this menu, click “Build Artifacts…” and then click “Build” under the small “Action” menu.
 - To run the jar, simply right click on “csc413-tankgame-username.jar” and hit “Run ‘csc413-tankgame-username…’ “. To make sure that we’re not running against old code, we should repeat the following steps (stated previously) every time we change something in our code or when we’ve changed things substantially: Find “Build” on the top of the project screen and once on this menu, click “Build Artifacts…” and then click “Build” under the small “Action” menu.
 
 
  
-## Steps to run your Project:
+## Steps to run Project:
 
 - To run the game, simply right click on the class called “Launcher” and click on “Run ‘Launcher.main()’ “, since that is the main class.
 - The rules of the game are quite simple: destroy the other tank and collect whatever powerups are necessary to destroy the other tank.
@@ -59,7 +43,7 @@ Intellij Ultimate IDEA
 - Player 2’s controls are: Up = Up arrow key, Down = Down arrow key, Rotate Left = Left arrow key, Rotate Right = Right arrow key, and Shoot = ‘Enter’ key
 
 
-## Controls to play your Game:
+## Controls to play the Game:
 
 |               | Player 1 | Player 2 |
 |---------------|----------|---------------------|
