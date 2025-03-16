@@ -6,6 +6,13 @@ Various OOP principles and concepts were necessary in implementing this game. A 
 
 When a user boots up the game, they have an introductory screen prompting them to begin. Once they begin, they see a split screen, one for each player, where the camera per screen tracks each individual tank. They can pickup power ups and shoot each other until someone dies. The survivor is the winner and is prompted with a victory/end game screen. This project is still a work in progress as I am fixing bugs pertaining to shells leaving the cannon and bugs pertaining to wall collisions. I am very proud of my progress here.
 
+Here is the start screen:
+![image](https://github.com/user-attachments/assets/01877843-00fe-4a3a-a52e-bd01fb920986)
+
+Here is a screenshot of gameplay. Note that since it is split screen, you will see two tanks per screen because they are close to each other:
+![image](https://github.com/user-attachments/assets/e4fba0c1-1e38-447d-986e-8e1704ace502)
+
+
 More details are listed below.
 
 ## Version of Java Used:
