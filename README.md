@@ -1,6 +1,6 @@
 # Tank Game
 
-Two players go ahead-to-head in tank combat where players can pick up power ups and whoever loses all lives, loses the game!
+Two players go head-to-head in tank combat where players can pick up power ups and whoever loses all lives, loses the game!
 
 Various OOP principles and concepts were necessary in implementing this game. A lot of inheritance was needed for the different types of objects in the game. I created an abstract class called “GameObject” for every object in the game which will be drawn and be collided with, like in the case of a bullet hitting a wall. I also made another abstract class for shells (such as shotgun shells and plasma shells) called “Shell”. I had an interface for power ups called “PowerUp” which would be implemented by every type of power up in the game such as the health power up, speed power up, and even shell power ups. Sounds and visuals are obviously important so I created classes to add animations and sound to the game.
 
