@@ -2,6 +2,8 @@
 
 Two players go head-to-head in tank combat where players can pick up power ups and whoever loses all lives, loses the game!
 
+See below for run instructions.
+
 Various OOP principles and concepts were necessary in implementing this game. A lot of inheritance was needed for the different types of objects in the game. I created an abstract class called “GameObject” for every object in the game which will be drawn and be collided with, like in the case of a bullet hitting a wall. I also made another abstract class for shells (such as shotgun shells and plasma shells) called “Shell”. I had an interface for power ups called “PowerUp” which would be implemented by every type of power up in the game such as the health power up, speed power up, and even shell power ups. Sounds and visuals are obviously important so I created classes to add animations and sound to the game.
 
 When a user boots up the game, they have an introductory screen prompting them to begin. Once they begin, they see a split screen, one for each player, where the camera per screen tracks each individual tank. They can pickup power ups and shoot each other until someone dies. The survivor is the winner and is prompted with a victory/end game screen. This project is still a work in progress as I am fixing bugs pertaining to shells leaving the cannon and bugs pertaining to wall collisions. I am very proud of my progress here.
